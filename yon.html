@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<title>Experiment</title>
+        <link rel='stylesheet' type='text/css' href='stylesheet_yon.css'/>
+        <script type='text/javascript' src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script>
+        	$(window).load(function(){
+	$('img').stop().animate({zoom: 100}, 700000);
+});
+
+$(window).load(function(){
+        var audioElement = document.createElement('audio');
+        audioElement.setAttribute('src', 'http://www.tvjukebox.net/themes/w/Wonder%20Years%20(1991%20-%20Short).mp3');
+        audioElement.setAttribute('autoplay', 'autoplay');
+        //audioElement.load()
+        $.get();
+        audioElement.addEventListener("load", function() {
+        audioElement.play();
+        }, true);
+});
+        </script>
+	</head>
+<body>
+	<img src="http://i.imgur.com/j2KVf4G.jpg">
+</body>

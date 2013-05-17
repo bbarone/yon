@@ -1,0 +1,59 @@
+body {
+	text-align: center;
+	background:black;
+    width: 600px;
+    position: relative;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.line {
+	border-top: 2px solid white;
+	margin: 0 auto;
+	width: 40px;
+}
+
+p {
+	line-height: 0.5em;
+}
+
+#journey {
+	color: white;
+	font-family: 'Comfortaa';
+	font-size: 3em;
+}
+
+#nebula {
+	color: white;
+	font-family: 'Megrim';
+	font-size: 4em;
+}
+
+#space {
+	color: white;
+	font-family: 'Press Start 2P';
+	font-size: 3em;
+}
+
+#yon {
+	color: white;
+	font-family: 'Rammetto One';
+	font-size: 4em;
+}
+
+#note {
+	color: white;
+	font-family: 'Comfortaa';
+	padding-bottom: 20px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: yellow;
+	text-decoration: none;
+}

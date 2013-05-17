@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<title>Experiment</title>
+        <link rel='stylesheet' type='text/css' href='stylesheet_neb.css'/>
+        <script type='text/javascript' src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script>
+        	$(window).load(function(){
+	$('img').stop().animate({zoom: 100}, 700000);
+});
+
+$(window).load(function(){
+        var audioElement = document.createElement('audio');
+        audioElement.setAttribute('src', 'http://media.thefader.com/thefader/emeralds-candy-shoppe.mp3');
+        audioElement.setAttribute('autoplay', 'autoplay');
+        //audioElement.load()
+        $.get();
+        audioElement.addEventListener("load", function() {
+        audioElement.play();
+        }, true);
+});
+        </script>
+	</head>
+<body>
+	<img src="http://imgsrc.hubblesite.org/hu/db/images/hs-2007-16-a-hires_jpg.jpg">
+</body>

@@ -1,0 +1,9 @@
+body {
+	background:black;
+}
+
+img {
+	position: absolute;
+    margin: -20px;
+	zoom: 50%;
+}
